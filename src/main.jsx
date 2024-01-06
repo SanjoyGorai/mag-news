@@ -9,6 +9,8 @@ import './index.css'
 import Home from './componants/Home/Home.jsx';
 import News from './componants/News/News.jsx';
 import ErrorPage from './componants/Error/ErrorPage.jsx';
+import Entaintment from './componants/Entaintment/Entaintment.jsx';
+import Business from './componants/Business/Business.jsx';
 
 
 const router = createBrowserRouter([
@@ -26,7 +28,16 @@ const router = createBrowserRouter([
         element: <News />
       },
       {
-
+        path: 'entaintment',
+        element: <Entaintment/>
+      },
+      {
+        path: '',
+        element: ''
+      },
+      {
+        path: 'business',
+        element: <Business/>
       }
     ]
   },
