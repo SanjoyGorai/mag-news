@@ -4,10 +4,16 @@
     box-sizing: border-box;
 }
 header{
+    display: flex;
+    justify-content: center;
 }
 a{
     cursor: pointer;
 }
 ul li a:hover{
-    color: greenyellow;
+    color: orange;
+}
+nav{
+    padding: 10px;
+
 }

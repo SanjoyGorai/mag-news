@@ -1,0 +1,8 @@
+#category-btn{
+    border: 2px solid white;
+}
+#category-btn:hover{
+    background: blue;
+    border: none;
+    outline: none;
+}

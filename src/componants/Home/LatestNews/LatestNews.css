@@ -1,0 +1,45 @@
+.news-container {
+    display: flex;
+    background-color: yellow;
+    gap: 2.4px;
+    width: 900px;
+    height: 330px;
+}
+
+.left-news {
+    width: 50%;
+    background-color: blue;
+    /* background-image: url('../../../assets/images/post-01.jpg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.right-news {
+    width: 50%;
+    background-color: red;
+}
+
+.top-news {
+    height: 50%;
+    background-color: aqua;
+}
+
+.bottom-news {
+    height: 50%;
+    background-color: tomato;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-div {
+    width: 50%;
+    background-color: wheat;
+
+}
+
+.right-div {
+    width: 50%;
+    background-color: green;
+}

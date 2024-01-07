@@ -7,6 +7,7 @@ import Manu from './componants/NavManu/Menu'
 import { Outlet } from 'react-router-dom';
 import Footer from './componants/Footer/Footer'
 
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -14,7 +15,8 @@ function App() {
     <>
       <Manu />
       <Outlet />
-      <Footer/>
+      {/* <Footer/> */}
+      
     </>
   )
 }

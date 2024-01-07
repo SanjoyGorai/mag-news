@@ -11,6 +11,8 @@ import News from './componants/News/News.jsx';
 import ErrorPage from './componants/Error/ErrorPage.jsx';
 import Entaintment from './componants/Entaintment/Entaintment.jsx';
 import Business from './componants/Business/Business.jsx';
+import Travel from './componants/Travel/Travel.jsx';
+import LifeStyle from './componants/Life Style/LifeStyle.jsx';
 
 
 const router = createBrowserRouter([
@@ -28,17 +30,21 @@ const router = createBrowserRouter([
         element: <News />
       },
       {
-        path: 'entaintment',
-        element: <Entaintment/>
+        path: '/entaintment',
+        element: <Entaintment />
       },
       {
-        path: '',
-        element: ''
+        path: '/business',
+        element: <Business />
       },
       {
-        path: 'business',
-        element: <Business/>
-      }
+        path: '/travel',
+        element: <Travel />
+      },
+      {
+        path: '/lifeStyle',
+        element: <LifeStyle />
+      },
     ]
   },
 ]);
