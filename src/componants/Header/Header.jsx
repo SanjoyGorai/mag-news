@@ -5,7 +5,11 @@ const Header = () => {
         <>
             <header>
                 <nav>
-                    <ul>
+                    <ul className='flex gap-6'>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="index.html">Home</a></li>
                     </ul>
                 </nav>

@@ -1,5 +1,15 @@
+.image-container{
+    width: 500px;
+    height: 350px;
+}
+.info-div{
+    margin-left: 20px;
+    justify-content: flex-end;
+}
+
 #category-btn{
     border: 2px solid white;
+    padding: 2px;
 }
 #category-btn:hover{
     background: blue;

@@ -7,7 +7,8 @@
 }
 
 .left-news {
-    width: 50%;
+    width: 524px;
+    height: 440px;
     background-color: blue;
     /* background-image: url('../../../assets/images/post-01.jpg'); */
     background-position: center;
@@ -17,13 +18,14 @@
 }
 
 .right-news {
-    width: 50%;
-    background-color: red;
+    width: 524px;
+    background-color: red;   
 }
 
 .top-news {
     height: 50%;
     background-color: aqua;
+    overflow: hidden;
 }
 
 .bottom-news {
@@ -31,15 +33,17 @@
     background-color: tomato;
     display: flex;
     flex-direction: row;
+    gap: 2.4px;
 }
 
 .left-div {
     width: 50%;
     background-color: wheat;
-
+    overflow: hidden;
 }
 
 .right-div {
     width: 50%;
     background-color: green;
+    overflow: hidden;
 }
