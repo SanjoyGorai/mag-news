@@ -1,0 +1,25 @@
+.tags-container {
+    background-color: white;
+    color: rgb(121, 116, 116);
+}
+
+.tags-container a {
+    outline: 1px solid rgb(98, 91, 91);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.sub-tags-container {
+    margin: 18px 0px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-tags-container a {
+    /* margin-left: 10px; */
+}
+
+.tags-container a:hover {
+    color: rgb(23, 185, 120);
+    outline: 1px solid rgb(23, 185, 120);
+}

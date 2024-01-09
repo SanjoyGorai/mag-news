@@ -8,6 +8,10 @@ import { Category, name } from '../Category/Category'
 import CategoryNav from '../Category/CategoryNav/CategoryNav'
 import PostItem from '../Category/PostItem/PostItem'
 import PostItemSmall from '../Category/PostItemSmall/PostItemSmall'
+import SectionHeading from '../RightSection/SectionHeading/SectionHeading'
+import SectionLinks from '../RightSection/SectionLinks/SectionLinks'
+import Subscribe from '../RightSection/Subscribe/Subscribe'
+import Tags from '../RightSection/Tags/Tags'
 
 
 const Home = () => {
@@ -22,7 +26,10 @@ const Home = () => {
                 {/* <News/> */}
                 <div>
                     {/* {name} */}
-                    <Category/>
+                    {/* <Category/> */}
+                    {/* <SectionLinks/> */}
+                    {/* <Subscribe/> */}
+                    <Tags />
                 </div>
             </div>
         </>

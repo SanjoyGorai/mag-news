@@ -1,0 +1,21 @@
+
+.subs-container{
+    /* align-items: center; */
+    background-color: #17b978;
+    padding: 20px;
+}
+.sub-title{
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+}
+.sub-para{
+    color: white;
+    margin: 5px 0 5px 0;
+}
+.input{
+    padding: 10px;
+    outline: none;
+    background-color: white;
+    margin: 10px 0 5px 0;
+}
