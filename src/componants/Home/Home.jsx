@@ -12,6 +12,7 @@ import SectionHeading from '../RightSection/SectionHeading/SectionHeading'
 import SectionLinks from '../RightSection/SectionLinks/SectionLinks'
 import Subscribe from '../RightSection/Subscribe/Subscribe'
 import Tags from '../RightSection/Tags/Tags'
+import Footer from '../Footer/Footer'
 
 
 const Home = () => {
@@ -29,7 +30,8 @@ const Home = () => {
                     {/* <Category/> */}
                     {/* <SectionLinks/> */}
                     {/* <Subscribe/> */}
-                    <Tags />
+                    {/* <Tags /> */}
+                    <Footer/>
                 </div>
             </div>
         </>
