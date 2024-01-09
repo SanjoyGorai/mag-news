@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import './Footer.scss'
 import logo from '../../assets/images/icons/logo-02.png'
 import { SocialIcon } from 'react-social-icons'
 import PostItemSmall from '../Category/PostItemSmall/PostItemSmall'
