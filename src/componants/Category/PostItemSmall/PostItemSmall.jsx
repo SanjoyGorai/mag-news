@@ -10,8 +10,8 @@ const PostItemSmall = () => {
           <img src={post} alt="" className='post-img' />
         </a>
         <div className='m-4'>
-          <h5><a href="">Donec metus orci, malesuada et lectus vitae</a></h5>
-          <span>
+          <h5><a href="" className='text-white'>Donec metus orci, malesuada et lectus vitae</a></h5>
+          <span className='text-white'>
             <a href="">Music</a>
             <span> - </span>
             <span> Jan 08 </span>

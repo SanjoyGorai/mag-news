@@ -2,11 +2,18 @@
 footer{
     background-color: #222222;
 }
+.main-footer{
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: center;
+}
 .para-1 {
     margin-top: 20px;
     color: white;
 }
-
+.footer-logo{
+    width: 200px;
+}
 .para-2 {
     margin-top: 20px;
     color: white;
@@ -36,4 +43,11 @@ footer{
 .right-section hr{
     width: 50%;
     margin-top: 5px;
+}
+
+/* SUb Footer */
+.sub-footer{
+    color: white;
+    display: flex;
+    justify-content: center; 
 }
