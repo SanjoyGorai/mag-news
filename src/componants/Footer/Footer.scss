@@ -1,8 +1,27 @@
-.up-icon-div{
-  background-color: red;
-  border-radius: 5px;
-  span{
-    background-color: blue;
-    border-radius: 5px;
-  }
+
+.up-icon-div {
+    background-color: red;
+
+    span {
+        background-color: greenyellow;
+        height: 50px;
+        padding: 5px;
+        // border-radius: 5px;
+    }
+
+    .up-arrow {
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        width: 31px;
+        height: 30px;
+    }
+
+}
+
+.middle-section {
+    .popular-post {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
 }
