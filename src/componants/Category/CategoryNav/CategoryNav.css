@@ -9,7 +9,7 @@
 }
 
 .nav-container::before {
-    content: 'Sanjoy';
+    content: '';
     background-color: red;
     display: block;
     position: absolute;
@@ -19,15 +19,15 @@
 
 }
 
-.link::after{
+.link::after {
     content: '';
     display: block;
     position: absolute;
-    background-color: green;
+    background-color: red;
     height: 5px;
     width: 7px;
     border-left: 1px solid #d5d5d5;
-    border-bottom:1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
     transform: rotate(-45deg);
 
 }

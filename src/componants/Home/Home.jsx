@@ -13,6 +13,7 @@ import SectionLinks from '../RightSection/SectionLinks/SectionLinks'
 import Subscribe from '../RightSection/Subscribe/Subscribe'
 import Tags from '../RightSection/Tags/Tags'
 import Footer from '../Footer/Footer'
+import RightSection from '../RightSection/RightSection'
 
 
 const Home = () => {
@@ -20,18 +21,22 @@ const Home = () => {
         <>
             <div className='container'>
 
-                {/* <h1>Home</h1> */}
-                {/* <h1>Business Microsoft quisque at ipsum vel orci eleifend ultrices</h1> */}
-                {/* <img src={image} alt="" className='w-96'/> */}
-                {/* <LatestNews /> */}
-                {/* <News/> */}
                 <div>
-                    {/* {name} */}
-                    {/* <Category/> */}
-                    {/* <SectionLinks/> */}
-                    {/* <Subscribe/> */}
-                    {/* <Tags /> */}
-                    <Footer/>
+                    <LatestNews />
+                </div>
+                <div className='flex'>
+                    <div className=''>
+                        <Category title='Entertainment' />
+                        <Category title='Business' />
+                        <Category title='Travel' />
+                        {/* <SectionLinks/> */}
+                        {/* <Subscribe/> */}
+                        {/* <Tags /> */}
+                    </div>
+                    <div>
+                        <RightSection title='Most Popular' />
+                        <RightSection title='Stay Connected' />
+                    </div>
                 </div>
             </div>
         </>

@@ -6,7 +6,7 @@ import logo from '../../assets/images/icons/logo-01.png'
 const Manu = () => {
     return (
         <header className='bg-red-500 '>
-            <nav className='bg-green-600'>
+            <nav className=''>
                 {/* <img src={logo} alt="" /> */}
                 <ul className='flex gap-10 font-semibold'>
                     <li><Link className='' to="/">Home</Link></li>

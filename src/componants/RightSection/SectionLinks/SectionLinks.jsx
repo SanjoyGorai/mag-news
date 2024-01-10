@@ -1,10 +1,10 @@
 import React from 'react'
-import './SectionLinks.css'
+import './SectionLinks.scss'
 
 const SectionLinks = () => {
     return (
         <>
-            <ul className=''>
+            <ul className='links'>
                 <li className=''>
                     <div>1</div>
                     <a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>

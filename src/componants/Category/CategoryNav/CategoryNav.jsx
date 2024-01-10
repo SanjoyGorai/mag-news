@@ -2,11 +2,11 @@
 import React from 'react'
 import './CategoryNav.css'
 
-const CategoryNav = () => {
+const CategoryNav = (props) => {
     return (
         <>
             <div className='flex justify-between nav-container '>
-                <h3 className="">Entertainment</h3>
+                <h3 className="">{props.title}</h3>
                 <ul className='flex gap-5'>
                     <li><a href="" className='link'>All</a></li>
                     <li><a href="">Celebrity</a></li>

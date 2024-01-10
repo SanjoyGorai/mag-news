@@ -65,7 +65,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className='sub-footer p-5 mt-10'>
+        <div className='sub-footer p-5 mt-10 '>
           <span>
             Copyright © 2024
             <a href="" className='text-green-400 hover:underline'> Copyright ©

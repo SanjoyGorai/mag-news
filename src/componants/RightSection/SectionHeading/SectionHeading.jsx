@@ -1,9 +1,10 @@
 import React from 'react'
+import './SectionHeading.css'
 
-const SectionHeading = () => {
+const SectionHeading = (props) => {
   return (
     <>
-    <h3>Most Popular</h3>
+      <h3 className='heading'>{props.title} </h3>
     </>
   )
 }

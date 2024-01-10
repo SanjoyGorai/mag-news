@@ -15,7 +15,7 @@ function App() {
     <>
       <Manu />
       <Outlet />
-      {/* <Footer/> */}
+      <Footer/>
       
     </>
   )
