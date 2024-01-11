@@ -6,17 +6,23 @@
         position: relative;
         display: flex;
         width: 220px;
-        height: 45px;
+        height: 40px;
         color: #222;
-        border: 1px solid red;
+        border: 1px solid grey;
         border-radius: 20px;
     }
     .search-input{
         border: none;
         outline: none;
         font-size: 14px;
+        margin: 0 0 0 5px;
+        padding: 10px;
     }
     i{
         display: inline-block;
     }
+    
+}
+.searchIcon{
+    margin: 0 0 0 0px;
 }

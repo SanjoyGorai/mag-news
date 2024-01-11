@@ -1,5 +1,7 @@
 import React from 'react'
 import './Headline.scss'
+import Button from '@mui/material/Button'
+import SearchIcon from '@mui/icons-material/Search';
 
 const Headline = () => {
     return (
@@ -15,7 +17,8 @@ const Headline = () => {
                 <div className='search-bar'>
                     <input type="text" name="search" id="" placeholder='Search' className='search-input' />
                     <button>
-                        <i>s</i>
+                        {/* <Button color='success'> Search</Button> */}
+                        <SearchIcon className='hover:text-green-500 searchIcon'/>
                     </button>
                 </div>
             </div>

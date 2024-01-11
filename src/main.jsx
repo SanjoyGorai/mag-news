@@ -14,6 +14,11 @@ import Business from './componants/Business/Business.jsx';
 import Travel from './componants/Travel/Travel.jsx';
 import LifeStyle from './componants/Life Style/LifeStyle.jsx';
 
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+
 
 const router = createBrowserRouter([
   {
