@@ -1,21 +1,15 @@
 .up-icon-div {
-    background-color: red;
-
-    span {
-        background-color: greenyellow;
-        height: 50px;
-        padding: 5px;
-        // border-radius: 5px;
-    }
-
-    .up-arrow {
-        cursor: pointer;
-        display: flex;
-        justify-content: center;
-        width: 31px;
-        height: 30px;
-    }
-
+    background-color: #17b978;
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    display: flex;
+    opacity: 0.6;
+    cursor: pointer;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    right: 40px;
 }
 
 .middle-section {
@@ -28,10 +22,11 @@
 .left-section {
 
     .icon-container {
-        .icon{
+        .icon {
             cursor: pointer;
         }
-        .icon:hover{
+
+        .icon:hover {
             color: greenyellow;
         }
     }

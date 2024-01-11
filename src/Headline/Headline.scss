@@ -1,8 +1,9 @@
-.headline-container{
+.headline-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    .search-bar{
+
+    .search-bar {
         position: relative;
         display: flex;
         width: 220px;
@@ -10,19 +11,26 @@
         color: #222;
         border: 1px solid grey;
         border-radius: 20px;
+
+        >input {
+            border-radius: 20px;
+        }
     }
-    .search-input{
+
+    .search-input {
         border: none;
         outline: none;
         font-size: 14px;
         margin: 0 0 0 5px;
         padding: 10px;
     }
-    i{
+
+    i {
         display: inline-block;
     }
-    
+
 }
-.searchIcon{
-    margin: 0 0 0 0px;
+
+.searchIcon {
+    margin: 0 0 0 5px;
 }

@@ -4,12 +4,10 @@ import './Footer.scss'
 import logo from '../../assets/images/icons/logo-02.png'
 import { SocialIcon } from 'react-social-icons'
 import PostItemSmall from '../Category/PostItemSmall/PostItemSmall'
-// import 'react-social-icons/vimeo'
-import { IoMdHeart } from "react-icons/io";
 import { FaFacebookF, FaTwitter, FaPinterestP, FaInstagram, FaYoutube } from "react-icons/fa";
 import { Link } from 'react-router-dom'
-
-
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import FavoriteIcon from '@mui/icons-material/Favorite';
 
 const Footer = () => {
 
@@ -71,17 +69,15 @@ const Footer = () => {
             Copyright © 2024
             <a href="" className='text-green-400 hover:underline'> Copyright ©
               <script>document.write(new Date().getFullYear())</script>
-              2024 All rights reserved | This template is made with
-              <IoMdHeart />
-              <span> by </span>
+              2024 All rights reserved | This template is made with 
+              <span><FavoriteIcon/></span>by
             </a>
-            <a href="" className='text-blue-600'> Colorlib </a>
+            <a href="" className='text-blue-600'>Colorlib </a>
           </span>
         </div>
       </footer>
       <div className='up-icon-div'>
-        <span className='up-arrow fas fa-angle-up'>&uarr;
-        </span>
+        <KeyboardArrowUpIcon />
       </div>
     </>
   )
