@@ -6,7 +6,9 @@ import { SocialIcon } from 'react-social-icons'
 import PostItemSmall from '../Category/PostItemSmall/PostItemSmall'
 // import 'react-social-icons/vimeo'
 import { IoMdHeart } from "react-icons/io";
-import { FaFacebookF } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaPinterestP, FaInstagram, FaYoutube } from "react-icons/fa";
+import { Link } from 'react-router-dom'
+
 
 
 const Footer = () => {
@@ -29,13 +31,12 @@ const Footer = () => {
                 libero, mattis nec molestie at, facilisis ut turpis. <br />
                 Vestibulum dolor metus, tincidunt eget odio</p>
               <p className='para-2'>Any questions? Call us on (+1) 96 716 6879</p>
-              <div className='social-icons-container'>
-                <FaFacebookF className='bg-red-500 hover:cursor-pointer' color='green' style={{color:''}}/>
-                <SocialIcon url="www.facebook.com" bgColor='yellow' className='icon' />
-                <SocialIcon url='www.twitter.com' className='icon' />
-                <SocialIcon url='www.pinterest.com' className='icon' />
-                <SocialIcon url='www.vimeo.' className='icon' />
-                <SocialIcon url='www.youtube.' className='icon' />
+              <div className='icon-container flex'>
+                <Link to=""> <FaFacebookF className='icon' color=' ' /></Link>
+                <Link><FaTwitter url="www.facebook.com" bgColor='yellow' className='icon' /></Link>
+                <Link><FaPinterestP url='www.twitter.com' className='icon' /></Link>
+                <Link><FaInstagram url='www.vimeo.' className='icon' /></Link>
+                <Link><FaYoutube url='www.youtube.' className='icon' /></Link>
               </div>
             </div>
           </div>

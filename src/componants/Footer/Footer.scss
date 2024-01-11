@@ -25,6 +25,18 @@
     }
 }
 
+.left-section {
+
+    .icon-container {
+        .icon{
+            cursor: pointer;
+        }
+        .icon:hover{
+            color: greenyellow;
+        }
+    }
+}
+
 .right-section {
     a {
         font-family: 'Roboto-Medium';

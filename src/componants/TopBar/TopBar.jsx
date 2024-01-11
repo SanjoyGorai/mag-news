@@ -2,7 +2,7 @@ import React from 'react'
 import './TopBar.scss'
 import night_png from '../../assets/images/icons/icon-night.png';
 import { SocialIcon } from 'react-social-icons'
-import { FaFacebookF } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaPinterestP, FaInstagram,FaYoutube  } from "react-icons/fa";
 
 
 const TopBar = () => {
@@ -28,9 +28,10 @@ const TopBar = () => {
           <a href=""><SocialIcon url='pinterest.com' /></a>
           <a href=""><SocialIcon url='youtube.com' /></a> */}
           <a href=""><FaFacebookF className='' /></a>
-          <a href=""><FaFacebookF className='' /></a>
-          <a href=""><FaFacebookF className='' /></a>
-          <a href=""><FaFacebookF className='' /></a>
+          <a href=""><FaTwitter className='' /></a>
+          <a href=""><FaPinterestP className='' /></a>
+          <a href=""><FaInstagram className='' /></a>
+          <a href=""><FaYoutube className='' /></a>
         </div>
       </div>
     </>
